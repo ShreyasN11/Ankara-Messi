@@ -16,6 +16,7 @@ export default function Home() {
     (
       async () => {
           const LocomotiveScroll = (await import('locomotive-scroll')).default
+          const locomotiveScroll = new LocomotiveScroll();
 
           setTimeout( () => {
             setIsLoading(false);
@@ -35,6 +36,7 @@ export default function Home() {
       <Projects />
       <Description />
       <SlidingImages />
+      {/* <Contact /> */}
     </main>
   )
 }
