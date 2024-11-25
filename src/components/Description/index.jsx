@@ -2,7 +2,6 @@ import styles from './style.module.scss';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 import { slideUp } from './animation';
-import Rounded from '../../common/RoundedButton';
 
 export default function Index() {
     const quotes = [
